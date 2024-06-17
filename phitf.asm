@@ -73,8 +73,8 @@
         syscall
 
         # Dividir o último termo pelo penúltimo
-        move $a0, $t1
-        move $a1, $t0
+        move $a0, $s3
+        move $a1, $s2
         jal printarFloat_da_divisao
         
         #Imprimir os termos 30, 40 e 41
